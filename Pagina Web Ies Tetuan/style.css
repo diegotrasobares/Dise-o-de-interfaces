@@ -1,0 +1,41 @@
+
+#nivel {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+header{
+    display: flex;
+    justify-content:gap;
+    gap: 50px;
+    border: 5px solid black;
+    border-style:dashed;
+    border-radius: 15px;
+    background-color: bisque;
+
+
+}
+nav {
+    text-align: center;
+}
+#logo {
+    text-align:left;
+    margin-left: 10px;
+}
+* {
+    flex-wrap: wrap;
+}
+img {
+    border-radius: 15px;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);;
+}
+#main {
+    display: flex;
+    justify-content:;
+    gap: 15px;
+}
+footer{
+    text-align: center;
+    border: 1px solid blue;
+}
+
+
