@@ -1,20 +1,20 @@
 
 body{
-    background-color: orange;
+    background-color: hsl(279, 100%, 29%);
 }
 #logo {
-    width: 120px;
-    height: 140px;
+    width: 7.5rem;
+    height: 8.75rem;
 }
 footer {
-    background-color: beige;
+    background-color: hsl(282, 50%, 61%);
 }
 #menu2  {
-    background-color: grey;
+    background-color: hsl(281, 58%, 46%);
     padding: 1rem;
 }
 aside>li {
-    background-color: aquamarine;
+    background-color: hsl(0, 0%, 100%);
     padding: 0.5rem;
     margin-top: 0.5rem;
 }
@@ -24,11 +24,11 @@ aside>li {
     margin-left: 1rem;
 }
 header {
-    background-color: gray;
+    background-color: hsl(282, 50%, 61%);
 }
 
 .menu2-item{
-    margin-top: 15px;
+    margin-top: 0.93rem;
 }
 
 header {
@@ -41,6 +41,14 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+}
+button {
+    font-size: 1.2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 0rem;
+    
 }
 footer{
     display: flex;
@@ -48,26 +56,26 @@ footer{
 }
 .menu-title {
     text-decoration: none;
-    color: black;
+    color: hsl(0, 0%, 0%);
     
 }
 footer>p {
-    margin-left: 15px;
+    margin-left: 0.93rem;
 }
 
 #articulos {
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: hsl(0, 0%, 100%);
 }
 
 #menu2>nav>li {
-    background-color: aquamarine;
-    padding: 5px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0.31rem;
 }
 
 article {
-    background-color: blue;
+    background-color: hsl(282, 100%, 34%);
     text-align: center;
     padding: 1rem;
     
@@ -79,7 +87,7 @@ article {
 
 }
 #right-side {
-    background-color: grey;
+    background-color: hsl(281, 58%, 46%);
     padding: 1rem;
 }
 
