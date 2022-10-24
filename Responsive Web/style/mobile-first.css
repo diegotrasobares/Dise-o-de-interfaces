@@ -1,0 +1,108 @@
+h1 {
+text-align: center;
+background-color:rgb(245, 243, 208) ;
+padding: 1rem;
+border: 2px dashed black;
+}
+
+div {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 5px;
+
+}
+
+
+.uno {
+    background-color: orange;
+    color: black;
+    -webkit-box-shadow:0px 0px 14px 3px orange ;
+    -moz-box-shadow:0px 0px 14px 3px orange ;
+    box-shadow:0px 0px 14px 3px orange ;
+
+}
+.dos {
+    background-color: grey;
+    color: white;
+    -webkit-box-shadow:0px 0px 14px 3px grey ;
+    -moz-box-shadow:0px 0px 14px 3px grey ;
+    box-shadow:0px 0px 14px 3px grey ;
+}
+.tres {
+    background-color: rgb(0, 255, 60);
+    color: white;
+    -webkit-box-shadow:0px 0px 14px 3px rgb(0, 255, 60) ;
+    -moz-box-shadow:0px 0px 14px 3px rgb(0, 255, 60) ;
+    box-shadow:0px 0px 14px 3px rgb(0, 255, 60) ;
+
+}
+.cuatro {
+    background-color: rgb(0, 149, 255);
+    color: white;
+    -webkit-box-shadow:0px 0px 14px 3px rgb(0, 149, 255);
+    -moz-box-shadow:0px 0px 14px 3px rgb(0, 149, 255) ;
+    box-shadow:0px 0px 14px 3px rgb(0, 149, 255) ;
+
+}
+.cinco {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    -webkit-box-shadow:0px 0px 14px 3px rgb(223, 223, 223) ;
+    -moz-box-shadow:0px 0px 14px 3px rgb(223, 223, 223) ;
+    box-shadow:0px 0px 14px 3px rgb(223, 223, 223) ;
+
+}
+
+@media all and (min-width: 768px){
+
+    .cajas {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .uno,.dos,.tres,.cuatro {
+        flex: 45%;
+    }
+.cinco {
+    flex: 100%;
+    background-color: white;
+    border-color: plum;
+    color: plum;
+}
+.tres {
+    color: black;
+}
+
+}
+
+@media all and (min-width: 992px){ 
+
+.uno,.dos,.tres {
+    flex: 30%;
+}
+.cuatro,.cinco{
+    flex: 45%;
+    background-color: white;
+}
+.cuatro{
+    color:rgb(0, 149, 255) ;
+}
+
+}
+@media all and (min-width: 1200px){ 
+.uno,.dos,.tres,.cuatro,.cinco{
+    color: black;
+    flex: 10%;
+}
+.cinco{
+    flex-basis: 40%;
+    color: black;
+    font-size: 40px;
+    border: 1px solid plum;
+}
+
+}

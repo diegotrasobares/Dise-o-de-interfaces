@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color:black
+}
+.grid-container {
+    display: grid;
+    background-color: #404040;
+    border-radius: 10px;
+    border: solid 2px #000000;
+    grid-template-columns:[linea1] 100px 30% auto;
+grid-template-rows: 200px 25% 25%;
+
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
